@@ -1,6 +1,6 @@
 package fr.wildcodeschool.githubtracker.model;
 
-public class Githubers {
+public class Githuber {
 
 	private String name;
 	private String email;
@@ -8,10 +8,10 @@ public class Githubers {
 	private Integer id;
 	private String avatarUrl;
 	
-	public Githubers() {
+	public Githuber() {
 	}
 
-	public Githubers(String name, String email, String login, Integer id, String avatarUrl) {
+	public Githuber(String name, String email, String login, Integer id, String avatarUrl) {
 		super();
 		this.name = name;
 		this.email = email;
